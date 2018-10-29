@@ -1,0 +1,86 @@
+---
+title: "Test R Notebook Joost Langeveld voor les 1 "
+output: html_notebook
+---
+
+# Doelstelling
+De doelstelling van deze file is om
+
+* te leren werken met Markdown
+* voordat de eerste les begint
+
+# Structuur
+## paragraaf
+### subparagraaf
+Tekst
+
+# Formatting
+
+1. item 1
+* sub-lijst 1 met bullet
+* sub-lijst 1 met bullet
+* sub-lijst 1 met bullet
+* sub-lijst 1 met bullet
+
+En dan
+
+* werkt dit ook?
+
+## Tekst formatting
+
+Tekst in **bold** en *italics* en __ook bold__ en _ook italics_.
+
+Gedachten:
+
+  * Hoe dan underline?
+  * Of is dat speciaal voor links?
+  * -> zoeken in Google!
+  * -> lijkt niet echt de bedoeling te zijn --> ask?
+
+## Tabellen
+
+Voornaam  |  Achternaam           |
+:---------| :----------           |
+Joost     | Langeveld-van Gendt   |
+Marjolein | van Gendt-Langeveld   |
+Jonathan  | Langeveld             |
+Mira      | Langeveld             |
+
+lengte van regel en verschil tussen spatie en tab lijkt niet uit te maken voor een tabel
+
+## Hyperlinks en plaatjes
+
+### Hyperlinks
+
+Een hyperlink naar een pagina ziet er zo uit:
+
+[VU website](https://www.vu.nl)
+
+En om de code zelf te laten zien gebruik je 3 quotes:
+
+´´´
+[VU website](https://www.vu.nl)
+´´´
+gebruik ook steeds witregels om blokken te scheiden.
+Werkt eigenlijk net als LaTeX of Html
+
+maar je kan ook twee of meer spaties aan het einde  
+van een regel doen voor een newline!
+
+Zou je ook $\LaTeX$ kunnen typen? Yep :-)
+
+### Plaatjes
+
+Plaatje moet in dezelfde folder als het notebook staan, of een subfolder.
+
+Waarom begint een blok met een plaatje met een uitroepteken?
+
+[Dit is een plaatje zonder uitroepteken](images/r-vs-python.jpg)
+
+![Dit is een plaatje met uitroepteken](images/r-vs-python.jpg)
+
+Of met een Html text
+
+<img src="images/r-vs-python.jpg" width="100" height="100">
+
+
