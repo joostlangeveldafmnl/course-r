@@ -1,6 +1,9 @@
 ---
-title: "Test R Notebook Joost Langeveld voor les 1 "
-output: html_notebook
+title: 'Test R Notebook Joost Langeveld voor les 1 '
+output:
+  html_document:
+    df_print: paged
+numbersections: yes
 ---
 
 # Doelstelling
@@ -78,9 +81,41 @@ Waarom begint een blok met een plaatje met een uitroepteken?
 [Dit is een plaatje zonder uitroepteken](images/r-vs-python.jpg)
 
 ![Dit is een plaatje met uitroepteken](images/r-vs-python.jpg)
-
 Of met een Html text
-
 <img src="images/r-vs-python.jpg" width="100" height="100">
+
+-----
+
+# Nu zoals tijdens de les op 20181029
+
+```{r}
+result <- 13 * pi
+print(result)
+```
+En hoe type je dan een hekje?
+
+Misschien wel zo: \#
+
+Of in $\LaTeX$: $#$
+
+Formules in Latex werken ook:
+\[
+  f(x) = \sin(x)
+  \label{eq_1}
+  \tag{1}
+\]
+
+Nu een beetje aan het wachten...
+
+## Sneltoetsen
+
+* Snel-toets voor het invoegen van een stuk R code is Ctrl + Alt + I
+* Snel-toets voor knit is Ctrl + Shift + K
+
+[Rstudio shortcuts keys](https://support.rstudio.com/hc/en-us/articles/200711853-Keyboard-Shortcuts)
+
+
+
+
 
 
